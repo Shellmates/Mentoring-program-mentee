@@ -1,0 +1,28 @@
+name: "alone"
+author: "ouxs"
+
+category: pwn
+difficulty: easy
+
+description: |
+  > I swear this **gets** will ruin everything.    
+
+  **Connect with**: nc pnw.linux.ctf.shellmates.club 1503  
+
+  **Author** : ouxs
+
+image: gcr.io/glowing-reserve-336013/alone
+
+value: 300
+type: standard
+
+flags:
+  - shellmates{Ar3_P30Pl3_ST1LL_U$In9_GETS!!!!}
+
+state: visible
+
+files:
+  - ./chall.c
+  - ./challenge/chall
+
+version: "0.1"

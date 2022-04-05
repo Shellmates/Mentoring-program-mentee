@@ -1,0 +1,26 @@
+name: "just /bin/bash"
+author: "chenx3n"
+
+category: linux
+difficulty: hard
+
+description: |
+  > Yaaay I got a shell!  
+  > Wait there's no ls, no cat, just /bin/bash !!  
+
+  **Connect with** : ssh -p 1205 ctf@linux.ctf.shellmates.club  
+  **Password** : ctf  
+
+  **Author** : chenx3n
+
+image: gcr.io/glowing-reserve-336013/justbinbash
+
+value: 500
+type: standard
+
+flags:
+  - shellmates{sH3ll_built1ns_FTW}
+
+state: hidden
+
+version: "0.1"

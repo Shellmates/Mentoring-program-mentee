@@ -1,0 +1,2 @@
+User-Agent: *
+Disallow: /s333333333cr3t

@@ -1,0 +1,26 @@
+name: "bases"
+author: "chenx3n"
+author_link: "https://github.com/malikDaCoda"
+
+category: general skills
+difficulty: easy
+
+description: |
+  > Here is your flag, you just need the right base to see it.
+
+  **Author** : chenx3n
+
+value: 200
+type: standard
+
+
+flags:
+  - shellmates{BASE64_m0RE_L1ke_BASed64}
+
+files:
+  - ./files/flag.txt.b64
+
+state: hidden
+
+version: "0.1"
+

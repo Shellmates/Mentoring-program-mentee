@@ -1,0 +1,25 @@
+name: "bash?"
+author: "ouxs"
+author_link: "https://github.com/ouxs-19"
+
+category: linux
+difficulty: easy
+
+description: |
+  > Trusting is very hard problem, especially when you deal with hackers.  
+
+  **Author** : ouxs
+
+connection_info: nc linux.ctf.shellmates.club 1202
+
+image: gcr.io/glowing-reserve-336013/bash
+
+value: 500
+type: standard
+
+flags:
+  - shellmates{P0rtable_m0r3_lIK3_PWN4BLE}
+
+state: hidden
+
+version: "0.1"

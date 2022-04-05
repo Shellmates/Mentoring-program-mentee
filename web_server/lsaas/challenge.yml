@@ -1,0 +1,23 @@
+name: "lsAAS"
+author: "ouxs"
+author_link: "https://github.com/ouxs-19"
+
+category: web-server
+difficulty: medium
+
+description: |
+  > Can you LS the flag?
+
+  **Author** : ouxs
+
+connection_info: http://lsaas.web_server.ctf.shellmates.club
+
+value: 300
+type: standard
+
+flags:
+  - shellmates{Y0u_M4d3_UR_W4Y_THR0U9Gh_my_L5}
+
+state: visible
+
+version: "0.1"

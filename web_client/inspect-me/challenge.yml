@@ -1,0 +1,11 @@
+author: chenx3n
+category: web-client
+description: "> Inspect me plz  \n\n**Link** : http://inspect_me.web_client.ctf.shellmates.club\n\
+  \n**Author** : chenx3n\n"
+flags:
+- shellmates{CLA$SI1111C_ch4l1enGE}
+name: Inspect Me
+state: visible
+type: standard
+value: 200
+version: '0.1'

@@ -1,0 +1,23 @@
+name: "RSA1"
+author: "haithem_lamri"
+
+category: crypto
+difficulty: easy
+
+description: |
+  > According to wiki, RSA is a strong encryption algorithm, so I just made my own public key, could you break it and find the flag?  
+
+  **Author** : haithem_lamri
+
+value: 200
+type: standard
+
+flags:
+  - shellmates{U_5h0uld_U53_L4rg3_Numb3r5}
+
+files:
+  - ./RSA1.txt
+
+state: visible
+
+version: "0.1"

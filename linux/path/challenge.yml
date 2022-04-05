@@ -1,0 +1,25 @@
+name: "path"
+author: "ouxs"
+
+category: linux
+difficulty: medium
+
+description: |
+  > Do you trust the paths?
+
+  **Connect with**: ssh -p 1210 ch3@linux.ctf.shellmates.club
+  **Password** : ctf  
+
+  **Author** : ouxs
+
+image: gcr.io/glowing-reserve-336013/path
+
+value: 300
+type: standard
+
+flags:
+  - shellmates{R3l47iV3_P4TH_4R3_Dan9eRou$}
+
+state: visible  
+
+version: "0.1"

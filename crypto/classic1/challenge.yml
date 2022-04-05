@@ -1,0 +1,27 @@
+name: "classic 1"
+author: "souad"
+
+category: crypto
+difficulty: easy
+
+description: |
+  > Do you know caesar ?  
+
+  **Author** : souad 
+
+value: 100
+type: standard
+
+flags:
+  - shellmates{caesar_just_rotations}
+
+tags:
+  - caesar
+  - rot13
+
+files:
+  - ./enc
+
+state: visible
+
+version: "0.1"

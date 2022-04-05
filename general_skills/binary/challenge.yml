@@ -1,0 +1,25 @@
+name: "binary"
+author: "chenx3n"
+author_link: "https://github.com/malikDaCoda"
+
+category: general skills
+difficulty: easy
+
+description: |
+  > I brought a special file this time.
+
+  **Author** : chenx3n
+
+value: 200
+type: standard
+
+
+flags:
+  - shellmates{B1N4ry_or_TexT_F1LE_i7_dOESnT_MatTeR!!}
+
+files:
+  - ./files/hello
+
+state: hidden
+
+version: "0.1"

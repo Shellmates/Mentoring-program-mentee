@@ -1,0 +1,28 @@
+name: "cowsay"
+author: "chenx3n"
+
+category: linux
+difficulty: medium
+
+description: |
+  > My friend installed this new `cowsay` command and he let me play around with it  
+  > But I think it's more than just a cow saying things!  
+
+  **Flag location**: `/flag.txt`  
+
+  **Connect with**: ssh -p 1208 ctf@linux.ctf.shellmates.club  
+  **Password** : 832364048d291d45e26b8c77  
+
+  **Author** : chenx3n
+
+image: gcr.io/glowing-reserve-336013/cowsay
+
+value: 300
+type: standard
+
+flags:
+  - shellmates{$uDO_G03s_m0OoOoo0OO0O0O0h}
+
+state: hidden
+
+version: "0.1"

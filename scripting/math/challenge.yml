@@ -1,0 +1,25 @@
+name: "math"
+author: "ouxs"
+author_link: "https://github.com/ouxs-19"
+
+category: scripting
+difficulty: medium
+
+description: |
+  > I've been told that you are very fast at math. Let's test it.
+  > There is a 100 operation.
+  **Author** : ouxs
+
+connection_info: nc scripting.ctf.shellmates.club 1401
+
+image: gcr.io/glowing-reserve-336013/math
+
+value: 300
+type: standard
+
+flags:
+  - shellmates{W3LL_I_H0P3_Y0U_did_17_W17|-|_PYTH0N}
+
+state: hidden
+
+version: "0.1"

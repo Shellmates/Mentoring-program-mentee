@@ -1,0 +1,19 @@
+author: ouxs
+author_link: https://github.com/ouxs-19
+category: web-client
+connection_info: http://reflected_note.web_client.ctf.shellmates.club
+description: '> Check out my app. It''s just a beta version, you can write notes and
+  share them with me.
+
+
+  **Author** : ouxs
+
+  '
+difficulty: hard
+flags:
+- shellmates{4-N0T3-4nD-R3FL3cted-XSS-IN-0N3-pacKag3}
+name: reflected note
+state: hidden
+type: standard
+value: 500
+version: '0.1'

@@ -1,0 +1,24 @@
+name: "puzz"
+author: "Hichem"
+author_link: "https://github.com/jini0x"
+
+category: misc
+
+difficulty: easy
+
+description: |
+  > Old but gold :)  
+
+  **Author** : Hichem
+
+flags:
+  - shellmates{PuZzul3_J1gS4W_W4sg1J_3LUZZup}
+
+files:
+  - puzzles.zip
+
+value: 100
+type: standard
+
+state: visible
+version: "0.1"

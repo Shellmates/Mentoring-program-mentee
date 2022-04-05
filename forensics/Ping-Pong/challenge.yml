@@ -1,0 +1,23 @@
+name: "Ping Pong"
+author: "hfz"
+
+category: forensics
+difficulty: medium
+
+description: |
+  > Follow the damn payload CJ.
+
+  **Author** : hfz
+
+value: 400
+type: standard
+
+flags:
+  - shellmates{iCmP_p@yl04d_1s_us3fuL_s0m3t1m3S_r1gHt?}
+
+files:
+  - ./ping_pong.pcapng
+
+state: hidden
+
+version: "0.1"

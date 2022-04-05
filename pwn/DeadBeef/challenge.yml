@@ -1,0 +1,28 @@
+name: "Dead beef"
+author: "ouxs"
+
+category: pwn
+difficulty: easy
+
+description: |
+  > Can you deadbeef the program??  
+
+  **Connect with**: nc pnw.linux.ctf.shellmates.club 1501  
+
+  **Author** : ouxs
+
+image: gcr.io/glowing-reserve-336013/babysbof
+
+value: 200
+type: standard
+
+flags:
+  - shellmates{D34D_B333333333F_IN70_t|-|E_$ERV3R}
+
+state: visible
+
+files:
+  - ./chall.c
+  - ./challenge/chall
+
+version: "0.1"

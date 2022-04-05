@@ -1,0 +1,23 @@
+name: "RSA0"
+author: "m0kr4n3"
+
+category: crypto
+difficulty: easy
+
+description: |
+  > I generated my pair of keys and encrypted my flag, can you decrypt it ? 
+
+  **Author** : m0kr4n3
+
+value: 100
+type: standard
+
+flags:
+  - shellmates{c0ngr4tz_n0w_y0u_kn0w_h0w_RSA_w0rk5}
+
+files:
+  - ./RSA0.txt
+
+state: visible
+
+version: "0.1"

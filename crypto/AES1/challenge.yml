@@ -1,0 +1,23 @@
+name: "AES1"
+author: "m0kr4n3"
+
+category: crypto
+difficulty: easy
+
+description: |
+  > I discovered a famous encrpytion and used the simplest mode of it, can you decrypt it ?
+
+  **Author** : m0kr4n3
+
+value: 100
+type: standard
+
+flags:
+  - shellmates{43S_3CB_15_51mpl3}
+
+files:
+  - ./AES1.txt
+
+state: visible
+
+version: "0.1"

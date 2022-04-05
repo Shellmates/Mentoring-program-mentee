@@ -1,0 +1,24 @@
+name: "layerZzz"
+author: "chenx3n"
+author_link: "https://github.com/malikDaCoda"
+
+category: misc
+difficulty: ezmed
+
+description: |
+  > That's a lot of layers... where does it even stop??  
+
+  **Author** : chenx3n
+
+value: 300
+type: standard
+
+flags:
+  - shellmates{CONGrATzZzz_U_d3FEa73d_a1l_Layer$!!!}
+
+files:
+  - ./layerZzz.tar.gz
+
+state: visible
+
+version: "0.1"

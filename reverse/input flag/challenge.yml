@@ -1,0 +1,24 @@
+name: "input flag"
+author: "chenx3n"
+author_link: "https://github.com/malikDaCoda"
+
+category: reverse
+difficulty: easy
+
+description: |
+  > Can you help me pass the right input to get the flag ?  
+
+  **Author** : chenx3n
+
+value: 100
+type: standard
+
+flags:
+  - shellmates{N3v3R_$torE_$ENs1TIV3_1nFOrMa7IOn_P1aiNtexT_In_yoUr_bin4rI3S}
+
+files:
+  - ./challenge/chall
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,27 @@
+name: "ordeval"
+author: "chenx3n"
+
+category: misc
+difficulty: ezmed
+
+description: |
+  > Can you ordeval the flag out?  
+
+  **Author** : chenx3n
+
+connection_info: nc misc.ctf.shellmates.club 1301
+
+image: gcr.io/glowing-reserve-336013/ordeval
+
+value: 300
+type: standard
+
+flags:
+  - shellmates{3dfd4eab386877d53c6eed6983c0966b}
+
+files:
+  - ./challenge/challenge.py
+
+state: visible
+
+version: "0.1"

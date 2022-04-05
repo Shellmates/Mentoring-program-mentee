@@ -1,0 +1,21 @@
+name: "My First SQLi"
+author: "chenx3n"
+
+category: web-server
+
+description: |
+  > My First SQL injection!!  
+
+  **Link** : http://my_first_sqli.web_server.ctf.shellmates.club  
+
+  **Author** : chenx3n
+
+value: 300
+type: standard
+
+flags: 
+  - shellmates{SQLi_goeS_BrrRrRR}
+
+state: visible
+
+version: "0.1"

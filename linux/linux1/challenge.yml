@@ -1,0 +1,26 @@
+name: "linux1"
+author: "ouxs"
+
+category: linux
+difficulty: easy
+
+description: |
+  > They said you got some LINUX skills!  
+  > Let's test them out  
+
+  **Connect with**: ssh -p 1203 ch1@linux.ctf.shellmates.club
+  **Password** : f53796f924d3ba088c02e963db04d26a  
+
+  **Author** : ouxs
+
+image: gcr.io/glowing-reserve-336013/linux1
+
+value: 200
+type: standard
+
+flags:
+  - shellmates{This_k1D_KnOws_how_We_d0_7h1ng5_h3R3}
+
+state: hidden
+
+version: "0.1"

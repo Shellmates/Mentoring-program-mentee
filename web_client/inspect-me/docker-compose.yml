@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gcr.io/glowing-reserve-336013/inspect_me
+    ports:
+      - '1337:80'
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          memory: 50M
+    healthcheck:
+      test: curl --fail http://127.0.0.1/alive || exit 1
+      interval: 60s
+      timeout: 2s
+      retries: 5

@@ -1,0 +1,18 @@
+name: "feedback"
+
+category: feedback
+
+description: |
+  > Please fill out this feedback form and help us improve next mentoring program's editions ! 
+
+connection_info: https://shellmates.typeform.com/mp-feedback
+
+value: 50
+type: standard
+
+flags:
+  - shellmates{w3Lc0M3_In_hAx0R5_w0RLD}
+
+state: visible
+
+version: "0.1"

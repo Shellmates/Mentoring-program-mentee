@@ -1,0 +1,25 @@
+name: "military_grade_encryption"
+author: "m0kr4n3"
+author_link: "https://github.com/m0kr4n3"
+
+category: crypto
+difficulty: hard
+
+description: |
+  > I made a military grade encryption that no one can break, I dare you to break it.
+
+  **Author** : m0kr4n3
+
+connection_info: nc crypto.ctf.shellmates.club 1800
+
+image: gcr.io/glowing-reserve-336013/military_grade_encryption
+
+value: 500
+type: standard
+
+flags:
+  - shellmates{I_though_AES_w4s_m1l1tary_gr4de_encryp7ion}
+
+state: visible
+
+version: "0.1"

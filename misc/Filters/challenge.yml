@@ -1,0 +1,23 @@
+name: "Filters"
+author: "hfz"
+
+category: misc
+difficulty: medium
+
+description: |
+  > Filters aren't only used to make your face look better on pictures...
+
+  **Author** : hfz
+
+value: 250
+type: standard
+
+flags:
+  - shellmates{h1Dd3n_1N_th3_4lpHa_byTe_bfffe0a9}
+
+files:
+  - filters.png
+
+state: visible
+
+version: "0.1"

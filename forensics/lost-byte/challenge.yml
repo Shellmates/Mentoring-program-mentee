@@ -1,0 +1,25 @@
+name: "lost byte"
+author: "chenx3n"
+author_link: "https://github.com/malikDaCoda"
+
+category: forensics
+difficulty: medium
+
+description: |
+  > Oh no! we lost the first byte of this file!!  
+  > Can you still recover it?!  
+
+  **Author** : chenx3n
+
+value: 500
+type: standard
+
+flags:
+  - shellmates{woW_YoU_RECOv3rEd_tHe_fIle!!}
+
+files:
+  - ./flag.broken
+
+state: hidden
+
+version: "0.1"

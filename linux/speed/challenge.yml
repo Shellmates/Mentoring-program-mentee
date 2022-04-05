@@ -1,0 +1,27 @@
+name: "speed"
+author: "ouxs"
+author_link: "https://github.com/ouxs-19"
+
+category: linux
+difficulty: hard
+
+description: |
+  > Speed is the way to go.  
+
+  **Password** : ctf  
+
+  **Author** : ouxs
+
+connection_info: ssh -p 1207 ctf@linux.ctf.shellmates.club
+
+image: gcr.io/glowing-reserve-336013/speed
+
+value: 500
+type: standard
+
+flags:
+  - shellmates{83C4r3FU11WH3NY0UD341W17H71M317C4N76377r1CKY}
+
+state: hidden
+
+version: "0.1"

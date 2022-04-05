@@ -1,0 +1,27 @@
+name: "classic 3"
+author: "souad"
+
+category: crypto
+difficulty: easy
+
+description: |
+  > We say that classic ciphers aren't secure anymore, can you prove me that ?
+
+  **Author** : souad
+
+value: 200
+type: standard
+
+flags:
+  - shellmates{bRutEF0rc3_MaY_com3_h4Ndy}
+
+tags:
+  - rot
+
+files:
+  - ./enc
+  - ./challenge.py
+
+state: visible
+
+version: "0.1"

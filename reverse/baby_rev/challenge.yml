@@ -1,0 +1,28 @@
+name: "baby rev"
+author: "ouxs"
+author_link: "https://github.com/ouxs-19"
+
+category: reverse 
+difficulty: easy
+
+description: |
+  > Only the worthy ones shall pass through my gate.  
+  > Flag : shellmates{PASSWORD}  
+  > **shellmates** and not **Shellmates**  
+
+  **Author** : ouxs
+
+
+value: 200
+type: standard
+
+
+flags:
+  - shellmates{EASY_EASY}
+
+files:
+  - ./files/baby_rev
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Mentoring program
+	</title>
+</head>
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Roboto+Mono:wght@300&display=swap');
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Roboto Mono', monospace;
+	}
+	body{
+		background-color: black;
+		width: 100%;
+		padding-top: 160px;
+		display: flex;
+ 		flex-direction: column;
+		justify-content:center;
+		align-items: center;
+		
+	}
+	.form{
+		width: 100%;
+		display: inline-block;
+		height: 50px;
+		max-width: 400px;
+		position: relative;
+		overflow: hidden;
+	}
+	.form input{
+		width: 100%;
+		height: 100%;
+		background: none;
+		color: #fff;
+		padding-top: 10px;
+		border: none;
+		outline: 0px;
+	}
+	.form .lbl{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		border-bottom:  solid white;
+        font-size: 1.2rem;
+	}
+	.form .lbl:after{
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: -1px;
+		width: 100%;
+		height: 100%;
+		border-bottom: 3px solid rgba(5, 105, 5, 0.774);
+		transform: translateX(-100%);
+		transition: all 0.1s ease;
+	}
+	.text-nom{
+		position: absolute;
+		bottom: 5px;
+		left: 0;
+		transition: all 0.3s ease;
+		color: #c7c7c7;
+	}
+	.form input:focus + .lbl .text-nom,.form input:valid + .lbl .text-nom{
+		transform: translateY(-120%);
+		font-size: 1rem;
+		color: green;
+	}
+	.form input:focus + .lbl:after, .form input:valid + .lbl:after{
+		transform: translateX(0%);
+	}
+	button
+	{
+		background-color: black;
+		position: relative;
+		display: inline-block;
+		padding: 7px 17px;
+		border: 1px solid white;
+		text-transform: uppercase;
+		color: white;
+		text-decoration: none;
+		font-weight: 100;
+		font-size: 15px;
+
+	}
+	button:before
+	{
+		content: '';
+		position: absolute;
+		top: 6px;
+		left: -2px;
+		width: calc(100% + 4px);
+		height: calc(100% - 12px);
+		background: black;
+		transition: 0.3s ease-in-out;
+		transform: scaleY(1);
+		transition-delay: 0.5s;
+
+	}
+	button:hover:before
+	{
+        transform: scaleY(0);
+	}
+	button:after
+	{
+		content: '';
+		position: absolute;
+		left: 6px;
+		top: -2px;
+		height: calc(100% + 4px);
+		width: calc(100% - 12px);
+		background: black;
+		transition: 0.5s ease-in-out;
+		transform: scaleX(1);
+
+	}
+	button:hover:after
+	{
+        transform: scaleX(0);
+	}
+	button span
+	{
+		position: relative;
+		z-index: 3;
+	}
+	@media only screen and (min-width:320px) and (max-width:768px){
+	 .form{
+		width:85%;
+	}
+		}
+</style>
+<body style="text-align:center;" id="body">
+	<form class="form" action="/" method="POST">
+		<input type="text" id="folder" name="folder" required>
+		<label class="lbl">
+			<span class="text-nom">Give me the folder to list</span>
+		</label>
+	<br>
+	<br>
+
+	</form>
+    <br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p id="nom" style="     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Roboto+Mono:wght@300&display=swap');
+	                        color:green;
+							font-size: 45px;
+							font-weight: bold;
+							font-family: 'Roboto Mono', monospace;">
+							{{statement}}
+	</p>
+</body>
+
+</html>

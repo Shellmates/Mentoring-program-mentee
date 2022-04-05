@@ -1,0 +1,23 @@
+author: chenx3n
+author_link: https://github.com/malikDaCoda
+category: web-client
+connection_info: http://secret_agent.web_client.ctf.shellmates.club
+description: '> Only super secret agents allowed
+
+
+  **Author** : chenx3n
+
+  '
+difficulty: easy
+files:
+- ./nginx.conf
+flags:
+- shellmates{$uuUuUUP3r_S3CR37_aG3Nt}
+image: gcr.io/i-pivot-325521/secret-agent
+name: secret agent
+state: visible
+tags:
+- warmup
+type: standard
+value: 300
+version: '0.1'

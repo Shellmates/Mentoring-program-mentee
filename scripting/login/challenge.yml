@@ -1,0 +1,29 @@
+name: "login"
+author: "chenx3n"
+author_link: "https://github.com/malikDaCoda"
+
+category: scripting
+difficulty: easy
+
+description: |
+  > This challenge tests your ability in understanding shell scripts, check `login.sh`
+  > and connect to the remote service using the command below  
+
+  **Author** : chenx3n
+
+connection_info: nc scripting.ctf.shellmates.club 1400
+
+image: gcr.io/glowing-reserve-336013/login
+
+value: 100
+type: standard
+
+flags:
+  - shellmates{L33E3Et_uSeR}
+
+files:
+  - login.sh
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,23 @@
+name: "X0R2"
+author: "haithem_lamri"
+
+category: crypto
+difficulty: hard
+
+description: |
+  > I've xored my flag using a random key, could you find my secret flag ?  
+  
+  **Author** : haithem_lamri
+
+value: 500
+type: standard
+
+flags:
+  - shellmates{Kn0wn_Pl4in_73xT_4774ck}
+
+files:
+  - ./enc.txt
+
+state: visible
+
+version: "0.1"

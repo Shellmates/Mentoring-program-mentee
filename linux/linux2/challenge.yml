@@ -1,0 +1,25 @@
+name: "linux2"
+author: "ouxs"
+
+category: linux
+difficulty: easy
+
+description: |
+  > If only can you see what's really going on...  
+
+  **Connect with**: ssh -p 1204 ch2@linux.ctf.shellmates.club
+  **Password** : 7e95f28caf75a4f5848ece440c2a0e8d  
+
+  **Author** : ouxs
+
+image: gcr.io/glowing-reserve-336013/linux2
+
+value: 200
+type: standard
+
+flags:
+  - shellmates{Y0U_ArE_n07_sUppO$3D_T0_$ee_THIs_pS_RUined_MY_D4y}
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,24 @@
+name: "652AHS"
+author: "m0kr4n3"
+
+category: crypto
+difficulty: easy
+
+description: |
+  > I read that hashing algorithms are irreversible, so I hashed my password and forgot it, can you recover it for me ?
+    (Put the password in the flag format  shellmates{...})
+
+  **Author** : m0kr4n3
+
+value: 200
+type: standard
+
+flags:
+  - shellmates{300489}
+
+files:
+  - ./hash.txt
+
+state: visible
+
+version: "0.1"

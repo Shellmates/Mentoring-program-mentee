@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+
+  server:
+    build: .
+    ports:
+      - '1337:1337'
+    image: gcr.io/glowing-reserve-336013/deadbeef
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          memory: 50M
+

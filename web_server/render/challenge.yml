@@ -1,0 +1,21 @@
+name: "render"
+author: "ouxs"
+
+category: web-server
+
+description: |
+  > Could do you render the flag for me?
+
+  **Link** : http://render.web_server.ctf.shellmates.club 
+
+  **Author** : ouxs, hasna
+
+value: 300
+type: standard
+
+flags: 
+  - shellmates{SSTI_X_J1NJA_893274}
+
+state: visible
+
+version: "0.1"

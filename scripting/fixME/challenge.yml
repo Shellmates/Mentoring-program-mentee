@@ -1,0 +1,28 @@
+author: yh_007
+category: scripting
+connection_info: nc scripting.ctf.shellmates.club 1402
+description: '> I found some passwords online but they are scrambaled !!!
+
+  > Can you help me to fix them so I can build my own wordlist and learn ethical hacking
+  !!!
+
+
+  **Author** : yh_007
+
+  '
+difficulty: hard
+flags:
+- shellmates{Python_is_easy}
+image: gcr.io/glowing-reserve-336013/fixme
+name: fixME
+state: visible
+type: standard
+value: 500
+version: '0.1'
+
+flags:
+  - shellmates{d0N'7_y0u_7H1NK_7H47_pwn700lS_4R3_C0o0L??}
+
+state: visible
+
+version: "0.1"

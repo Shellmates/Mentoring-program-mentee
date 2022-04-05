@@ -1,0 +1,25 @@
+name: "Unzip Me"
+author: "chenx3n"
+author_link: "https://github.com/malikDaCoda"
+
+category: scripting
+difficulty: easy
+
+description: |
+  > The file `archive-100.zip` has been zipped a 100 times, can you write a script to see what’s actually hiding in there?  
+
+  **Author** : chenx3n
+
+value: 200
+type: standard
+
+flags:
+  - shellmates{u_D1DnT_$k1P_Th3_ba$H_SCRiPTINg_wOrKSh0P}
+
+files:
+  - archive-100.zip
+
+state: hidden
+
+version: "0.1"
+

@@ -1,0 +1,24 @@
+name: "tok"
+author: "TKzizo"
+
+category: reverse
+difficulty: medium
+
+description: |
+  > Now, I added some operations ! See if you can retrieve the key.
+  > The flag format is : shellmates{key}
+
+  **Author:** TKzizo
+
+value: 400
+type: standard
+
+flags:
+  - shellmates{REV_IS_EASY-sh}
+
+files: 
+  - ./tok
+
+state: visible
+
+version: "0.1"

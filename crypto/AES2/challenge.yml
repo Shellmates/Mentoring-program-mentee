@@ -1,0 +1,23 @@
+name: "AES2"
+author: "m0kr4n3"
+
+category: crypto
+difficulty: medium
+
+description: |
+  > For this time, I used more complex mode, you can't get over it
+
+  **Author** : m0kr4n3
+
+value: 200
+type: standard
+
+flags:
+  - shellmates{3v3n_CBC_m0d3_c4n't_st0p_m3}
+
+files:
+  - ./AES2.txt
+
+state: visible
+
+version: "0.1"

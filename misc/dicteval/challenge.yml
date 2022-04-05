@@ -1,0 +1,27 @@
+name: "dicteval"
+author: "chenx3n"
+
+category: misc
+difficulty: ezmed
+
+description: |
+  > Can you dicteval the flag out?  
+
+  **Author** : chenx3n
+
+connection_info: nc misc.ctf.shellmates.club 1302
+
+image: gcr.io/glowing-reserve-336013/dicteval
+
+value: 300
+type: standard
+
+flags:
+  - shellmates{9286a596f6a2b68bfd4eae4e4d0d6f10}
+
+files:
+  - ./challenge/challenge.py
+
+state: visible
+
+version: "0.1"

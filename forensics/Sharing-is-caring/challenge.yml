@@ -1,0 +1,23 @@
+name: "Sharing is caring"
+author: "hfz"
+
+category: forensics
+difficulty: easy
+
+description: |
+  > My friend deployed an FTP server to share some files with us, but he forgot about the consequences.
+
+  **Author** : hfz
+
+value: 300
+type: standard
+
+flags:
+  - shellmates{ftp_tr4fF1c_iSn't_3ncRypTeD_uS3_sFTP_1nst34d!}
+
+files:
+  - ./sharing_is_caring.pcapng
+
+state: hidden
+
+version: "0.1"

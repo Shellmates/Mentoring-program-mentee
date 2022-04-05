@@ -1,0 +1,25 @@
+name: "Just crash Me"
+author: "ouxs"
+
+category: pwn
+difficulty: easy
+
+description: |
+  >  Just Crash IT. 
+
+  **Connect with**: nc pwn.ctf.shellmates.club 1500  
+
+  **Author** : ouxs  
+
+image: gcr.io/glowing-reserve-336013/justcrashme
+
+value: 100
+type: standard
+
+flags:
+  - shellmates{always_ensure_memory_saf3ty}
+
+state: visible
+files:
+  - ./prog
+version: "0.1"

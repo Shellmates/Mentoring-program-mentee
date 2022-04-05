@@ -1,0 +1,24 @@
+name: "easy asmb"
+author: "souad"
+
+category: reverse
+difficulty: easy
+
+description: |
+  > Well, this time I changed the approach, I wrote the function that checks the key. 
+  > See if you can reverse it.
+
+  **Author** : souad
+
+value: 200
+type: standard
+
+flags:
+  - shellmates{A5dS-C221-av4x}
+
+files:
+  - ./easy-asmb
+
+state: visible
+
+version: "0.1"

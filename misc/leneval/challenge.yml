@@ -1,0 +1,27 @@
+name: "leneval"
+author: "chenx3n"
+
+category: misc
+difficulty: hard
+
+description: |
+  > Can you leneval the flag out?  
+
+  **Author** : chenx3n
+
+connection_info: nc misc.ctf.shellmates.club 1303
+
+image: gcr.io/glowing-reserve-336013/leneval
+
+value: 500
+type: standard
+
+flags:
+  - shellmates{9e41e0dd1e4fbddbb00d35436b5379f9}
+
+files:
+  - ./challenge/challenge.py
+
+state: visible
+
+version: "0.1"

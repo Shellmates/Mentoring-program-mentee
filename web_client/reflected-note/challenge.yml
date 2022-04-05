@@ -1,0 +1,25 @@
+name: "reflected note"
+author: "chenx3n"
+author_link: "https://github.com/malikDaCoda"
+
+category: web-client
+difficulty: hard
+
+description: |
+  > Check out my app. It's just a beta version, you can write notes and share them with me.  
+
+  **Author :** chenx3n
+
+connection_info: http://reflected_note.web_client.ctf.shellmates.club
+
+image: gcr.io/glowing-reserve-336013/reflected-note
+
+value: 500
+type: standard
+
+flags:
+  - shellmates{4-N0T3-4nD-R3FL3cted-XSS-IN-0N3-pacKag3}
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,19 @@
+version: '3.3'
+
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gcr.io/glowing-reserve-336013/cookies
+    ports:
+      - '1337:1337'
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          memory: 50M
+

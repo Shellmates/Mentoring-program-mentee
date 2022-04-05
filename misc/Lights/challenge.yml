@@ -1,0 +1,25 @@
+name: "Lights"
+author: "hfz"
+
+category: misc
+difficulty: ezmed
+
+description: |
+  > Hmm, someone is playing with the lights out there, I'm pretty sure he's trying to tell us something.
+  > Go there and investigate. 
+
+  **Connect with**: http://lights.misc.ctf.shellmates.club
+
+  **Author** : hfz
+
+image: gcr.io/glowing-reserve-336013/lights
+
+value: 250
+type: standard
+
+flags:
+  - shellmates{i_h0p3_s0m30nE_n0t1c3S_mY_m3sS4geS_s1Gh}
+
+state: visible
+
+version: "0.1"

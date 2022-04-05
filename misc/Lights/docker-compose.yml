@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  light:
+    build: .
+    ports:
+      - '5501:80'
+    image: gcr.io/glowing-reserve-336013/lights
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          memory: 50M
+  

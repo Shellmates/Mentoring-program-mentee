@@ -1,0 +1,23 @@
+name: "Find ME"
+author: "chenx3n"
+author_link: "https://github.com/malikDaCoda"
+
+category: general skills
+difficulty: easy
+
+description: |
+  > Let's play a game. Find ME game.
+
+  **Author** : chenx3n
+
+value: 300
+type: standard
+
+flags:
+  - shellmates{h0w_D1D_U_FInD_me??}
+
+files:
+  - ./files/chall.zip
+state: hidden
+
+version: "0.1"
